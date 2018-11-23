@@ -4,6 +4,48 @@ const quizContainer    = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton     = document.getElementById('submit');
 
+// pagination
+const previousButton = document.getElementById("previous");
+const nextButton = document.getElementById("next");
+let slides = document.querySelectorAll(".slide");
+let currentSlide = 0;
+
+////////////////////////////////////////////////////////////////////////////
+
+//    If we’re on the first slide, hide the Previous Slide button. Otherwise, show the button.
+//    If we’re on the last slide, hide the Next Slide button and show the Submit button. Otherwise, show the Next Slide button and hide the Submit button.
+
+function showSlide(n) {
+
+  if(typeof slides != 'undefined') {
+      slides[currentSlide].classList.remove('active-slide');
+  }
+  slides[n].classList.add('active-slide');
+  currentSlide = n;
+  if(currentSlide===0){
+    previousButton.style.display = 'none';
+  }
+  else{
+    previousButton.style.display = 'inline-block';
+  }
+  if(currentSlide===slides.length-1){
+    nextButton.style.display = 'none';
+    submitButton.style.display = 'inline-block';
+  }
+  else{
+    nextButton.style.display = 'inline-block';
+    submitButton.style.display = 'none';
+  }
+}
+
+function showNextSlide() {
+  showSlide(currentSlide + 1);
+}
+
+function showPreviousSlide() {
+  showSlide(currentSlide - 1);
+}
+
 function buildQuiz(){
   // we'll need a place to store the HTML output
   const output = [];
@@ -32,14 +74,19 @@ function buildQuiz(){
 
       // add this question and its answers to the output
       output.push(
-        `<div class="question"> ${currentQuestion.question} </div>
-        <div class="answers"> ${answers.join('')} </div>`
+        `<div class="slide">
+            <div class="question"> ${currentQuestion.question} </div>
+            <div class="answers"> ${answers.join('')} </div>
+         </div>`
       );
     }
   );
 
   // finally combine our output list into one string of HTML and put it on the page
   quizContainer.innerHTML = output.join('');
+
+  slides = document.querySelectorAll(".slide");
+  showSlide(0);
 }
 
 function showResults(){
@@ -78,6 +125,10 @@ function showResults(){
   // show number of correct answers out of total
   resultsContainer.innerHTML = numCorrect + ' out of ' + myQuestions.length;
 }
+
+
+previousButton.addEventListener("click", showPreviousSlide);
+nextButton.addEventListener("click", showNextSlide);
 
 // display quiz right away
 window.addEventListener("DOMContentLoaded", buildQuiz);
