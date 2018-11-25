@@ -23,18 +23,26 @@ function showSlide(n) {
   slides[n].classList.add('active-slide');
   currentSlide = n;
   if(currentSlide===0){
-    previousButton.style.display = 'none';
+    previousButton.classList.remove('show-btn');
+    previousButton.classList.add('hide-btn');
   }
   else{
-    previousButton.style.display = 'inline-block';
+    previousButton.classList.add('show-btn');
+    previousButton.classList.remove('hide-btn');
   }
   if(currentSlide===slides.length-1){
-    nextButton.style.display = 'none';
-    submitButton.style.display = 'inline-block';
+    nextButton.classList.add('hide-btn');
+    nextButton.classList.remove('show-btn');
+
+    submitButton.classList.remove('hide-btn');
+    submitButton.classList.add('show-btn');
   }
   else{
-    nextButton.style.display = 'inline-block';
-    submitButton.style.display = 'none';
+    nextButton.classList.remove('hide-btn');
+    nextButton.classList.add('show-btn');
+
+    submitButton.classList.add('hide-btn');
+    submitButton.classList.remove('show-btn');
   }
 }
 

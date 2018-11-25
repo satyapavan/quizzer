@@ -62,3 +62,11 @@ button:hover{
   height: 200px;
   margin-top: 40px;
 }
+
+.show-btn {
+  display : inline-block;
+}
+
+.hide-btn{
+  display : none;
+}
