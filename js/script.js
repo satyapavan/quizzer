@@ -121,12 +121,16 @@ function showResults(){
 
       //TODO : Add a CSS class not a direct style change. yuck!
       // color the answers green
-      answerContainers[questionNumber].style.color = 'lightgreen';
+      (answerContainer.querySelector(selector)).parentElement.classList.add('right-answer')
     }
     // if answer is wrong or blank
     else{
       // color the answers red
-      answerContainers[questionNumber].style.color = 'red';
+      console.log( (answerContainer.querySelector(selector)) )
+      if( (answerContainer.querySelector(selector)) != null )
+        (answerContainer.querySelector(selector)).parentElement.classList.add('wrong-answer');
+      else
+        answerContainer.classList.add('wrong-answer');
     }
   });
 

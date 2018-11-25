@@ -70,3 +70,11 @@ button:hover{
 .hide-btn{
   display : none;
 }
+
+.right-answer {
+  color: lightgreen;
+}
+
+.wrong-answer {
+  color: red;
+}
