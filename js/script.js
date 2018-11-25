@@ -9,6 +9,7 @@ const previousButton = document.getElementById("previous");
 const nextButton = document.getElementById("next");
 let slides = document.querySelectorAll(".slide");
 let currentSlide = 0;
+let totalQuestions = 0;
 
 ////////////////////////////////////////////////////////////////////////////
 
@@ -21,6 +22,8 @@ function showSlide(n) {
       slides[currentSlide].classList.remove('active-slide');
   }
   slides[n].classList.add('active-slide');
+  resultsContainer.innerHTML = (n+1) + ' of ' + totalQuestions + ' Question(s)';
+
   currentSlide = n;
   if(currentSlide===0){
     previousButton.classList.remove('show-btn');
@@ -80,6 +83,7 @@ function buildQuiz(){
         );
       }
 
+      totalQuestions++;
       // add this question and its answers to the output
       output.push(
         `<div class="slide">
@@ -135,7 +139,9 @@ function showResults(){
   });
 
   // show number of correct answers out of total
-  resultsContainer.innerHTML = numCorrect + ' out of ' + myQuestions.length;
+  let passPercent = ((numCorrect/totalQuestions) * 100).toFixed(0);
+
+  resultsContainer.innerHTML = passPercent + '% scored. ' + numCorrect + ' out of ' + myQuestions.length + ' answers are right.';
 }
 
 
