@@ -60,7 +60,7 @@ button:hover{
 .quiz-container{
   position: relative;
   height: 200px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .show-btn {
@@ -77,4 +77,13 @@ button:hover{
 
 .wrong-answer {
   color: red;
+}
+
+#timer {
+  text-align: right;
+  top: 0px;
+  right: 0px;
+  font-size: 80%;
+  margin-top: 5px;
+
 }

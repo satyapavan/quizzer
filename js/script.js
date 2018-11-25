@@ -3,6 +3,7 @@
 const quizContainer    = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton     = document.getElementById('submit');
+const timerContainer   = document.getElementById('timer');
 
 // pagination
 const previousButton = document.getElementById("previous");
@@ -10,6 +11,7 @@ const nextButton = document.getElementById("next");
 let slides = document.querySelectorAll(".slide");
 let currentSlide = 0;
 let totalQuestions = 0;
+let timerProc;  // Is there a better way to deal with these than global parameters? TODO
 
 ////////////////////////////////////////////////////////////////////////////
 
@@ -57,6 +59,22 @@ function showPreviousSlide() {
   showSlide(currentSlide - 1);
 }
 
+function startTimer() {
+  var timer = 0, minutes, seconds;
+  timerProc = setInterval(function () {
+      minutes = parseInt(timer / 60, 10)
+      seconds = parseInt(timer % 60, 10);
+
+      minutes = minutes < 10 ? "0" + minutes : minutes;
+      seconds = seconds < 10 ? "0" + seconds : seconds;
+
+      timerContainer.textContent = 'Time Elapsed: ' + minutes + ":" + seconds;
+
+      timer++;
+
+  }, 1000);
+}
+
 function buildQuiz(){
   // we'll need a place to store the HTML output
   const output = [];
@@ -96,9 +114,11 @@ function buildQuiz(){
 
   // finally combine our output list into one string of HTML and put it on the page
   quizContainer.innerHTML = output.join('');
-
+  
   slides = document.querySelectorAll(".slide");
   showSlide(0);
+
+  startTimer();
 }
 
 function showResults(){
@@ -137,6 +157,8 @@ function showResults(){
         answerContainer.classList.add('wrong-answer');
     }
   });
+
+  clearInterval(timerProc);
 
   // show number of correct answers out of total
   let passPercent = ((numCorrect/totalQuestions) * 100).toFixed(0);
