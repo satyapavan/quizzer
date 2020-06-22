@@ -77,29 +77,43 @@ function startTimer() {
 
 function loadData() {
 
-  $.getJSON("questions/questions.json", function(json) {
-    console.log(json);
-    let loadedQuestions = json['quizzer']
-    console.log('Inside loadData:', loadedQuestions)
-
-    loadedQuestions.forEach(
-      (currentQuestion, questionNumber) => {
-        console.log('------------------------------------')
-        console.log('BEFORE', currentQuestion);
-
-        currentQuestion.question = window.atob(currentQuestion.question);
-
-        for(letter in currentQuestion.answers){
-          currentQuestion.answers[letter] = window.atob(currentQuestion.answers[letter]);
+  fetch('./questions/questions.json')
+    .then(
+      function(response) {
+        if (response.status !== 200) {
+          console.log('Looks like there was a problem. Status Code: ' +
+            response.status);
+          return;
         }
-        console.log('AFTER', currentQuestion);
-      }
-    );
 
-    // TIL : This converts a local variable into a global variable. nice!
-    window.quizQuest = loadedQuestions;
-    buildQuiz();
-  });
+        // Examine the text in the response
+        response.json().then(function(json) {
+          console.log(json);
+          let loadedQuestions = json['quizzer']
+          console.log('Inside loadData:', loadedQuestions)
+
+          loadedQuestions.forEach(
+            (currentQuestion, questionNumber) => {
+              console.log('------------------------------------')
+              console.log('BEFORE', currentQuestion);
+
+              currentQuestion.question = window.atob(currentQuestion.question);
+
+              for(letter in currentQuestion.answers){
+                currentQuestion.answers[letter] = window.atob(currentQuestion.answers[letter]);
+              }
+              console.log('AFTER', currentQuestion);
+            }
+          );
+          // TIL : This converts a local variable into a global variable. nice!
+          window.quizQuest = loadedQuestions;
+          buildQuiz();
+        });
+      }
+    )
+    .catch(function(err) {
+      console.log('Fetch Error :-S', err);
+    });
 }
 
 function buildQuiz(){
