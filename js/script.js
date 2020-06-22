@@ -75,13 +75,42 @@ function startTimer() {
   }, 1000);
 }
 
+function loadData() {
+
+  $.getJSON("questions/questions.json", function(json) {
+    console.log(json);
+    let loadedQuestions = json['quizzer']
+    console.log('Inside loadData:', loadedQuestions)
+
+    loadedQuestions.forEach(
+      (currentQuestion, questionNumber) => {
+        console.log('------------------------------------')
+        console.log('BEFORE', currentQuestion);
+
+        currentQuestion.question = window.atob(currentQuestion.question);
+
+        for(letter in currentQuestion.answers){
+          currentQuestion.answers[letter] = window.atob(currentQuestion.answers[letter]);
+        }
+        console.log('AFTER', currentQuestion);
+      }
+    );
+
+    // TIL : This converts a local variable into a global variable. nice!
+    window.quizQuest = loadedQuestions;
+    buildQuiz();
+  });
+}
+
 function buildQuiz(){
+  
   // we'll need a place to store the HTML output
   const output = [];
 
+  console.log('Inside buildQuiz:', quizQuest)
   //TODO : how is the value of questionNumber coming there? Interesting
   // for each question...
-  myQuestions.forEach(
+  quizQuest.forEach(
     (currentQuestion, questionNumber) => {
 
       // we'll want to store the list of answer choices
@@ -130,7 +159,7 @@ function showResults(){
   let numCorrect = 0;
 
   // for each question...
-  myQuestions.forEach( (currentQuestion, questionNumber) => {
+  quizQuest.forEach( (currentQuestion, questionNumber) => {
 
     // find selected answer
     // TODO : Is this really going to be following same numbers? Better to use another set of hash mappings
@@ -163,7 +192,7 @@ function showResults(){
   // show number of correct answers out of total
   let passPercent = ((numCorrect/totalQuestions) * 100).toFixed(0);
 
-  resultsContainer.innerHTML = passPercent + '% scored. ' + numCorrect + ' out of ' + myQuestions.length + ' answers are right.';
+  resultsContainer.innerHTML = passPercent + '% scored. ' + numCorrect + ' out of ' + quizQuest.length + ' answers are right.';
 }
 
 
@@ -171,7 +200,8 @@ previousButton.addEventListener("click", showPreviousSlide);
 nextButton.addEventListener("click", showNextSlide);
 
 // display quiz right away
-window.addEventListener("DOMContentLoaded", buildQuiz);
+window.addEventListener("DOMContentLoaded", loadData);
 
 // on submit, show results
-submitButton.addEventListener('click', showResults);
+submitButton.addEventListener('click', showResults);// Move this to a JSON file in later time
+
