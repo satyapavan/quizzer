@@ -20,3 +20,7 @@ A generic quiz app framework
 * Move the questions to a seperate repo and start using labels to choose the questions selectively.
 * Build a job chain to see if any of the questions are duplicated (implement the style similarity algorithm)
 * Add the questions from ML Coursera to here.
+
+## Good link on randomize
+- https://bost.ocks.org/mike/shuffle/
+- https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array

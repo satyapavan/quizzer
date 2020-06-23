@@ -75,6 +75,13 @@ function startTimer() {
   }, 1000);
 }
 
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
 function loadData() {
 
   fetch('./questions/questions.json')
@@ -106,7 +113,8 @@ function loadData() {
             }
           );
           // TIL : This converts a local variable into a global variable. nice!
-          window.quizQuest = loadedQuestions;
+          shuffleArray(loadedQuestions);
+          window.quizQuest = loadedQuestions.slice(0, 9);
           buildQuiz();
         });
       }
