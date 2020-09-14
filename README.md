@@ -24,3 +24,4 @@ A generic quiz app framework
 ## Good link on randomize
 - https://bost.ocks.org/mike/shuffle/
 - https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+- https://stackoverflow.com/questions/23223718/failed-to-execute-btoa-on-window-the-string-to-be-encoded-contains-characte
