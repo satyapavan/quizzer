@@ -672,17 +672,6 @@
             "skill": "python"
         },
         {
-            "question": "WW91IHdhbnQgdG8gY3JlYXRlIGEgZnVuY3Rpb24gY2FsbGVkIHJhaXNlIHRoYXQgY2FsY3VsYXRlcyB0aGUgZG9sbGFyIGFtb3VudCBvZiBhbiBlbXBsb3llZXMgcmFpc2UuIFRoZSBmdW5jdGlvbiB3aWxsIHRha2UgaW4gdHdvIHBvc2l0aW9uYWwgYXJndW1lbnRzLCBvbmUgZm9yIHRoZSBlbXBsb3llZXMgY3VycmVudCBiYXNlIGFuZCB0aGUgc2Vjb25kIGZvciB0aGUgcGVyY2VudGFnZSBvZiB0aGUgcmFpc2UuIFdoaWNoIG9mIGZvbGxvd2luZyBjb2RlIHNuaXBwZXRzIGFjaGlldmVzIHRoaXM/",
-            "answers": {
-                "a": "",
-                "b": "",
-                "c": "",
-                "d": ""
-            },
-            "correctAnswer": "d",
-            "skill": "python"
-        },
-        {
             "question": "V2hhdCBpcyB0aGUgZGlmZmVyZW5jZSBiZXR3ZWVuIGltcG9ydCBteV9tb2R1bGUgYW5kIGZyb20gbXlfbW9kdWxlIGltcG9ydCAqPw==",
             "answers": {
                 "a": "WW91IGNhbiByZWZlciB0byB0aGUgc3VibW9kdWxlcyBpbiBpbXBvcnQgbXlfbW9kdWxlIGluIGEgc2hvcnRlciB3YXku",
@@ -702,17 +691,6 @@
                 "d": "bXl0dXBsZSA9IChbXyBmb3IgXyBpbiByYW5nZSgxMCkgaWYgXyAlIDIgPT0gMF0sIFsgXyBmb3IgXyBpbiByYW5nZSgyMCkgaWYgXyAlIDIgIT0gMF0p"
             },
             "correctAnswer": "d",
-            "skill": "python"
-        },
-        {
-            "question": "V2hhdCBpcyBvbmUgd2F5IHRvIG9idGFpbiB0aGUgbGFyZ2VzdCB2YWx1ZSBvdXQgb2YgYW4gYXJyYXkgb2YgcG9zaXRpdmUgaW50ZWdlcnM/",
-            "answers": {
-                "a": "",
-                "b": "",
-                "c": "",
-                "d": ""
-            },
-            "correctAnswer": "a",
             "skill": "python"
         },
         {
@@ -837,17 +815,6 @@
             "skill": "python"
         },
         {
-            "question": "SG93IHdvdWxkIHlvdSB1c2UgdGhlIHN1cGVyKCkgbWV0aG9kIGdpdmVuIHRoZSBmb2xsb3dpbmcgcGFyZW50IGNsYXNzPw==",
-            "answers": {
-                "a": "",
-                "b": "",
-                "c": "",
-                "d": ""
-            },
-            "correctAnswer": "d",
-            "skill": "python"
-        },
-        {
             "question": "WW91IG5lZWQgYSBmdW5jdGlvbiB0byBzZWUgaWYgYSBudW1iZXIgaXMgaW4gYSByYW5nZSBvZiB0aGUgb3RoZXIgdHdvIGZ1bmN0aW9ucy4=",
             "answers": {
                 "a": "VGhpcyBpcyBQeXRob24gMiBzeW50YXg=",
@@ -947,28 +914,6 @@
             "skill": "python"
         },
         {
-            "question": "SG93IGNvdWxkIHlvdSByZXRyaWV2ZSB0aGUgbGFzdCBmb3VyIGRpZ2l0cyBvZiBhIHVzZXIncyBzb2NpYWwgc2VjdXJpdHkgbnVtYmVyIHRvIGFsbG93IGl0IHRvIGJlIGRpc3BsYXllZCBvbiBzY3JlZW4/",
-            "answers": {
-                "a": "",
-                "b": "",
-                "c": "",
-                "d": ""
-            },
-            "correctAnswer": "b",
-            "skill": "python"
-        },
-        {
-            "question": "V2hpY2ggb2YgdGhlIGZvbGxvd2luZyB3b3VsZCByZXN1bHQgaW4gYmx1ZSBleWVzIGJlaW5nIHByaW50ZWQgZ2l2ZW46",
-            "answers": {
-                "a": "",
-                "b": "",
-                "c": "",
-                "d": ""
-            },
-            "correctAnswer": "d",
-            "skill": "python"
-        },
-        {
             "question": "V2hhdCBpcyB0aGUgc3ludGF4IGZvciBweXRob24ncyBjb25kaXRpb25hbCBleHByZXNzaW9ucz8=",
             "answers": {
                 "a": "dHJ1ZV92YWx1ZSBpZiBjb25kaXRpb24gZWxzZSBmYWxzZV92YWx1ZQ==",
@@ -977,17 +922,6 @@
                 "d": "Y29uZGl0aW9uID8gdHJ1ZV92YWx1ZSA6IGZhbHNlX3ZhbHVl"
             },
             "correctAnswer": "a",
-            "skill": "python"
-        },
-        {
-            "question": "SG93IHdvdWxkIHlvdSBkZWZpbmUgYSBmdW5jdGlvbiB0aGF0IHRha2VzIGEgZGljdGlvbmFyeSBhbmQgcmV0dXJucyB0aGUgc3VtIG9mIGEgYW5kIGIgaW4gdGhlIGRpY3Rpb25hcnk/",
-            "answers": {
-                "a": "",
-                "b": "",
-                "c": "",
-                "d": ""
-            },
-            "correctAnswer": "c",
             "skill": "python"
         },
         {
@@ -1076,6 +1010,391 @@
                 "d": "UmVzdHJ1Y3R1cmluZyBjb2RlYmFzZQ=="
             },
             "correctAnswer": "c",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+WW91IHdvdWxkIGxpa2UgeW91ciBjb21wYW554oCZcyBLdWJlcm5ldGVzIGRlcGxveW1lbnRzIHRvIHVzZSBkeW5hbWljIHNlY3JldCB2YWx1ZXMgZ2VuZXJhdGVkIGFzIGEgc2V0IG9mIGZpbGVzLiBTaW5jZSB5b3UgbWFuYWdlIHNldmVyYWwgY2x1c3RlcnMsIHdoYXQgaXMgdGhlIG1vc3QgIGVmZmVjdGl2ZSB3YXkgdG8gaGFuZGxlIHRoaXM/PC9wPg==",
+            "answers": {
+                "a": "PHA+V3JpdGUgYW4gaW5pdCBzY3JpcHQgdGhhdCBkb3dubG9hZHMgdGhlIHNlY3JldHMgZnJvbSB0aGUgS3ViZXJuZXRlcyBBUEkgYXQgcnVudGltZS48L3A+",
+                "b": "PHA+RGVmaW5lIHRoZSBzZWNyZXRzIGFzIGVudmlyb25tZW50IHZhcmlhYmxlcyB1bmRlciB0aGUgUG9kJ3MgY29udGFpbmVyLjwvcD4=",
+                "c": "PHA+UnVuIGFuIGluaXQgY29udGFpbmVyIHRvIGRvd25sb2FkIHRoZSBzZWNyZXRzIGZyb20gdGhlIEt1YmVybmV0ZXMgQVBJIGFuZCBtb3VudCB0aGVtIGFzIGEgdm9sdW1lIHRvIHRoZSBQb2QuPC9wPg==",
+                "d": "PHA+QXR0YWNoIHNlY3JldHMgZmlsZXMgdG8gUG9kcyBieSBkZWNsYXJpbmcgYSB2b2x1bWUgdGhhdCB3aWxsIG1vdW50IGVhY2ggc2VjcmV0IGFzIGEgZmlsZSBpbiB0aGUgUG9kIGRlZmluaXRpb24uPC9wPg=="
+            },
+            "correctAnswer": "d",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+SWYgYSBzdHJpbmcgPGNvZGU+Zm9vPC9jb2RlPiBpcyBwYXNzZWQgYXMgYW4gYXJndW1lbnQgdG8gCTxjb2RlPnNldCgpPC9jb2RlPiwgd2hhdCB3aWxsIGJlIHRoZSByZXN1bHRpbmcgc2V0PzwvcD4=",
+            "answers": {
+                "a": "PHA+PGNvZGU+e+KAmG/igJksIOKAmGbigJksIOKAmG/igJl9PC9jb2RlPjwvcD4=",
+                "b": "PHA+PGNvZGU+e+KAmGbigJksIOKAmG/igJl9PC9jb2RlPjwvcD4=",
+                "c": "PHA+PGNvZGU+e+KAmGZv4oCZfTwvY29kZT48L3A+",
+                "d": "PHA+PGNvZGU+e+KAmGZvb+KAmX08L2NvZGU+PC9wPg=="
+            },
+            "correctAnswer": "b",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+SW4gS3ViZXJuZXRlcywgd2hhdCBpcyBhIHNlcnZpY2UgYWNjb3VudCB1c2VkIGZvcj88L3A+",
+            "answers": {
+                "a": "PHA+VG8gc2VjdXJlbHkgaWRlbnRpZnkgYW5kIGF1dGhlbnRpY2F0ZSBQb2RzIHdoZW4gYWNjZXNzaW5nIHRoZSBjbHVzdGVyPC9wPg==",
+                "b": "PHA+VG8gYWNjZXNzIHRoZSBLdWJlcm5ldGVzIERhc2hib2FyZCB3aXRoIHdyaXRlIHBlcm1pc3Npb25zPC9wPg==",
+                "c": "PHA+VG8gYWNjZXNzIGEgUG9kIHJ1bm5pbmcgaW5zaWRlIHRoZSBjbHVzdGVyLCBmcm9tIG91dHNpZGUgdGhlIGNsdXN0ZXI8L3A+",
+                "d": "PHA+VG8gcmVnaXN0ZXIgYSBuZXcgU2VydmljZSBpbiBLdWJlcm5ldGVzPC9wPg=="
+            },
+            "correctAnswer": "a",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+WW91IG11c3QgaW50ZWdyYXRlIGEgY29udGFpbmVyaXplZCBhcHBsaWNhdGlvbiB3aXRoIHlvdXIgY29tcGFueSdzIGxvZyBtb25pdG9yaW5nIHBsYXRmb3JtLiBUaGUgbG9nIG1vbml0b3JpbmcgcGxhdGZvcm0gaW5nZXN0cyBhbGwgZmlsZXMgaW4gSlNPTiBmb3JtYXQgZnJvbSBhIGdpdmVuIGxvY2F0aW9uIGluc2lkZSBhIHBlcnNpc3RlbnQgdm9sdW1lIGNsYWltIChQVkMpIGxvZyByZXBvc2l0b3J5LiBHaXZlbiB0aGF0IHRoZSBjb250YWluZXJpemVkIGFwcGxpY2F0aW9uIGlzIG91dHB1dHRpbmcgWE1MIGxvZyBmaWxlcywgaG93IHdvdWxkIHlvdSBpbnRlZ3JhdGUgdGhlIGFwcGxpY2F0aW9uIHdpdGggdGhlIG1vbml0b3JpbmcgcGxhdGZvcm0/PC9wPg==",
+            "answers": {
+                "a": "PHA+QnkgdXNpbmcgdGhlIHNpZGVjYXIgY29udGFpbmVyIHBhdHRlcm4gdG8gZXh0cmFjdCB0aGUgWE1MIGxvZyBmaWxlcyB0byB0aGUgc2hhcmVkIHZvbHVtZSBiZXR3ZWVuIHRoZSBjb250YWluZXJzPC9wPg==",
+                "b": "PHA+QnkgdXNpbmcgdGhlIHByb3h5IGNvbnRhaW5lciBwYXR0ZXJuIHRvIG1vdmUgdGhlIFhNTCBsb2cgZmlsZXMgdG8gYSBzaGFyZWQgdm9sdW1lIGJldHdlZW4gdGhlIGNvbnRhaW5lcnMgb24gdGhlIGZpbGVzeXN0ZW0gcGF0aCByZXF1aXJlZCBmb3IgdGhlIGxvZyBwYXJzaW5nPC9wPg==",
+                "c": "PHA+QnkgdXNpbmcgdGhlIGFtYmFzc2Fkb3IgY29udGFpbmVyIHBhdHRlcm4gdG8gY29ubmVjdCBhIHNoYXJlZCB2b2x1bWUgYmV0d2VlbiB0aGUgY29udGFpbmVycyB0aGF0IGNvbnZlcnRzIHRoZSBYTUwgbG9nIGZpbGVzIHRvIG1hcmtkb3duIChNRCkgZm9ybWF0PC9wPg==",
+                "d": "PHA+QnkgdXNpbmcgdGhlIGFkYXB0ZXIgY29udGFpbmVyIHBhdHRlcm4gdG8gY29udmVydCB0aGUgWE1MIGxvZyBmaWxlcyB0byBKU09OIGZvcm1hdCBhbmQgbW91bnRpbmcgdGhlIFBWQyBsb2cgcmVwb3NpdG9yeSB0byB0aGUgY29udGFpbmVyczwvcD4="
+            },
+            "correctAnswer": "d",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+Q29udGFpbmVycyB3aXRoaW4gYSBQb2Qgc2hhcmUgYW4gSVAgYWRkcmVzcyBhbmQgcG9ydCBzcGFjZS4gV2hhdCBzcGVjaWFsIGZ1bmN0aW9uIGRvZXMgdGhpcyBlbmFibGUgZm9yIGNvbnRhaW5lcnM/PC9wPg==",
+            "answers": {
+                "a": "PHA+VGhlIGFiaWxpdHkgdG8gY29tbXVuaWNhdGUgdmlhIGludGVyIHByb2Nlc3MgY29tbXVuaWNhdGlvbiAoSVBDKTwvcD4=",
+                "b": "PHA+VGhlIGFiaWxpdHkgdG8gc2VhbWxlc3NseSBjb21tdW5pY2F0ZSB3aXRoIGNvbnRhaW5lcnMgaW4gb3RoZXIgUG9kcyB2aWEgYSBQb2QgYWRkcmVzczwvcD4=",
+                "c": "PHA+VGhlIGFiaWxpdHkgdG8gY29tbXVuaWNhdGUgdGhyb3VnaCBTeXN0ZW0gViBzZW1hcGhvcmVzIG9yIFBvcnRhYmxlIE9wZXJhdGluZyBTeXN0ZW0gSW50ZXJmYWNlIChQT1NJWCkgc2hhcmVkIG1lbW9yeTwvcD4=",
+                "d": "PHA+VGhlIGFiaWxpdHkgdG8gZmluZCBlYWNoIG90aGVyIHZpYSA8Y29kZT5sb2NhbGhvc3Q8L2NvZGU+PC9wPg=="
+            },
+            "correctAnswer": "d",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+V2hhdCBjb21tYW5kIGluIGEgS3ViZXJuZXRlcyBjb21tYW5kIGxpbmUgaW50ZXJmYWNlIChDTEkpIGNhbiBjcmVhdGUgYSBzZWNyZXQgY2FsbGVkIDxjb2RlPmFwcC10b2tlbjwvY29kZT4gd2l0aCB0aGUgY29udGVudHMgb2YgdGhlIGZpbGUgPGNvZGU+Li9zZWNyZXQtdG9rZW4ueWFtbCA8L2NvZGU+c3RvcmVkIGluIHRoZSA8Y29kZT50b2tlbjwvY29kZT4ga2V5IG9mIHRoZSBvYmplY3Q/PC9wPg==",
+            "answers": {
+                "a": "PHA+PGNvZGU+a3ViZWN0bCBjcmVhdGUgc2VjcmV0IGdlbmVyaWMgYXBwLXRva2VuIC0tZnJvbS1maWxlPS4vc2VjcmV0LXRva2VuLnlhbWwgPC9jb2RlPjwvcD4=",
+                "b": "PHA+PGNvZGU+a3ViZWN0bCBjcmVhdGUgc2VjcmV0IC0tbmFtZT1hcHAtdG9rZW4gLS1mcm9tLWZpbGU9Li9zZWNyZXQtdG9rZW4ueWFtbCAtLWtleT10b2tlbjwvY29kZT48L3A+",
+                "c": "PHA+PGNvZGU+a3ViZWN0bCBjcmVhdGUgc2VjcmV0IGdlbmVyaWMgYXBwLXRva2VuIC0tZnJvbS1maWxlPXRva2VuPS4vc2VjcmV0LXRva2VuLnlhbWw8L2NvZGU+PC9wPg==",
+                "d": "PHA+PGNvZGU+a3ViZWN0bCBjcmVhdGUgc2VjcmV0IGFwcC10b2tlbiAtLWZyb20tZmlsZT0uL3NlY3JldC10b2tlbi55YW1sIDwvY29kZT48L3A+"
+            },
+            "correctAnswer": "c",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+QWZ0ZXIgY3JlYXRpbmcgdGhlIHJlc291cmNlcyB3aXRoIHRoZSBmb2xsb3dpbmcgUGVyc2lzdGVudFZvbHVtZUNsYWltIChQVkMpIGFuZCBQZXJzaXN0ZW50Vm9sdW1lIChQVikgZGVmaW5pdGlvbiBydW5uaW5nIG9uIGEgS3ViZXJuZXRlcyBjbHVzdGVyLCB0aGUgUFZDIGlzIHN0aWxsIHVuYm91bmQuIFdoeT88YnI+PGJyPjxjb2RlPmFwaVZlcnNpb246IHYxPGJyPmtpbmQ6IFBlcnNpc3RlbnRWb2x1bWVDbGFpbTxicj5tZXRhZGF0YTo8YnI+ICBuYW1lOiBwZXJzaXN0ZW50LWRpc2stY2xhaW08YnI+ICBuYW1lc3BhY2U6IHRyYWluaW5nPGJyPiAgPGJyPnNwZWM6PGJyPiAgYWNjZXNzTW9kZXM6PGJyPiAgICAtIFJlYWRXcml0ZU9uY2U8YnI+ICB2b2x1bWVNb2RlOiBGaWxlc3lzdGVtPGJyPiAgc3RvcmFnZUNsYXNzTmFtZTogUmVjeWNsYWJsZTxicj4gIHJlc291cmNlczo8YnI+ICAgIHJlcXVlc3RzOjxicj4gICAgICBzdG9yYWdlOiA1R2k8YnI+ICBzZWxlY3Rvcjo8YnI+ICAgIG1hdGNoTGFiZWxzOjxicj4gICAgICBlbnZpcm9ubWVudDogImRldiI8L2NvZGU+PGJyPjxicj48YnI+PGNvZGU+YXBpVmVyc2lvbjogdjE8YnI+a2luZDogUGVyc2lzdGVudFZvbHVtZTxicj5tZXRhZGF0YTo8YnI+ICBuYW1lOiBwZXJzaXN0ZW50LWRpc2s8YnI+c3BlYzo8YnI+ICBjYXBhY2l0eTo8YnI+ICAgIHN0b3JhZ2U6IDhHaTxicj4gIHZvbHVtZU1vZGU6IEZpbGVzeXN0ZW08YnI+ICBhY2Nlc3NNb2Rlczo8YnI+ICAgIC0gUmVhZFdyaXRlT25jZTxicj4gIHBlcnNpc3RlbnRWb2x1bWVSZWNsYWltUG9saWN5OiBSZWN5Y2xlPGJyPiAgc3RvcmFnZUNsYXNzTmFtZTogUmVjeWNsYWJsZTxicj4gIG5mczo8YnI+ICAgIHBhdGg6IC90bXA8YnI+ICAgIHNlcnZlcjogMTcyLjE3LjAuMjwvY29kZT48YnI+PC9wPg==",
+            "answers": {
+                "a": "PHA+VGhlIFBWQyBjYW4gb25seSBiaW5kIHRvIFBWcyBmcm9tIHRoZSA8Y29kZT50cmFpbmluZzwvY29kZT4gbmFtZXNwYWNlLjwvcD4=",
+                "b": "PHA+VGhlIFBWQyBjYW4gb25seSBiaW5kIHRvIFBWcyB0aGF0IGhhdmUgdGhlIGxhYmVsOiA8Y29kZT5lbnZpcm9ubWVudDogZGV2PC9jb2RlPi48L3A+",
+                "c": "PHA+VGhlIFBWQyBjYW4gb25seSBiaW5kIHRvIFBWcyB3aXRoIHRoZSBhdHRyaWJ1dGUgPGNvZGU+Y2xhaW1SZWY8L2NvZGU+IHNldCB0byB0aGUgUFZDIG5hbWUuPC9wPg==",
+                "d": "PHA+VGhlIFBWQyBjYW4gb25seSBiaW5kIHRvIFBWcyB3aXRoIHN0b3JhZ2UgY2FwYWNpdHkgb2YgNSBHaS48L3A+"
+            },
+            "correctAnswer": "b",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+WW91IHdvdWxkIGxpa2UgdG8gdXNlIHRoZSBzeXMgbW9kdWxlIHRvIGFkZCBhIG1vZHVsZSBmcm9tIGEgY3VzdG9tIGxvY2F0aW9uLgpUaGUgZm9sbG93aW5nIHNjcmlwdCBmYWlscyB3aGVuIHlvdSB0cnkgdG8gaW1wb3J0IHRoZSBtb2R1bGUsIHRoZSBjdXN0b20gbG9jYXRpb24gaXM6IAoJPGNvZGU+IkQ6XFByb2plY3RzXCI8L2NvZGU+IEFzc3VtZSA8Y29kZT5ob3RzdHVmZjwvY29kZT4gaXMgaW4gdGhlIGZvbGRlci4KPC9wPg==",
+            "answers": {
+                "a": "PHA+VGhlIG1vZHVsZSBpcyBub3QgaW4gdGhhdCBmb2xkZXIuCjwvcD4=",
+                "b": "PHA+WW91IGNhbiBvbmx5IHNldCB0aGUgcGF0aCBpbiB0aGUgPGNvZGU+UFlUSE9OUEFUSDwvY29kZT4gZW52aXJvbm1lbnQgdmFyaWFibGUuCjwvcD4=",
+                "c": "PHA+WW91IG11c3Qgc3BlY2lmeSB0aGUgcGF0aCB3aXRoIHJhdyBzdHJpbmcgb3IgZXNjYXBlIHRoZSBiYWNrc2xhc2hlcy4KPC9wPg==",
+                "d": "PHA+WW91IG5lZWQgdG8gc3RhcnQgd2l0aCBpbXBvcnQgc3RhdGVtZW50cyBhbmQgdGhlbiB3aXRoIHRoZSBhcHBlbmQuCjwvcD4="
+            },
+            "correctAnswer": "c",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+V2hhdCBjb21tYW5kIGNhbiBjcmVhdGUgYSBDb25maWdNYXAgb2JqZWN0IGNhbGxlZCBhcHAtY29uZmlnIHdpdGggdGhlIGNvbnRlbnRzIG9mIHRoZSBmaWxlIC4vYXBwLWNvbmZpZy55YW1sPzwvcD4=",
+            "answers": {
+                "a": "PHA+PGNvZGU+a3ViZWN0bCBjcmVhdGUgY29uZmlnbWFwIC0tbmFtZT1hcHAtY29uZmlnIC0tZmlsZT0uL2FwcC1jb25maWcueWFtbDwvY29kZT48L3A+",
+                "b": "PHA+PGNvZGU+a3ViZWN0bCBjcmVhdGUgY29uZmlnbWFwIGFwcC1jb25maWcgLS1mcm9tLWZpbGU9Li9hcHAtY29uZmlnLnlhbWw8L2NvZGU+PC9wPg==",
+                "c": "PHA+PGNvZGU+a3ViZWN0bCBjcmVhdGUgY29uZmlnbWFwIGFwcC1jb25maWcgLi9hcHAtY29uZmlnLnlhbWw8L2NvZGU+PC9wPg==",
+                "d": "PHA+PGNvZGU+a3ViZWN0bCBjcmVhdGUgY29uZmlnbWFwIC0tbmFtZT1hcHAtY29uZmlnIC0tZnJvbS1maWxlPS4vYXBwLWNvbmZpZy55YW1sPC9jb2RlPjwvcD4="
+            },
+            "correctAnswer": "b",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+SG93IGRvZXMgRG9ja2VyIFN3YXJtIHBlcmZvcm0gc2VydmljZSBkaXNjb3Zlcnk/PC9wPg==",
+            "answers": {
+                "a": "PHA+QSBTd2FybSBtYW5hZ2VyIGludm9rZXMgYSBuZXcgbm9kZSB3aXRoIHRocmVlIGNvbnRhaW5lcnMgdGhhdCBhcmUgZGVkaWNhdGVkIHRvIGhhbmRsaW5nIEhUVFAgcmVxdWVzdHMuPC9wPg==",
+                "b": "PHA+QSBTd2FybSBtYW5hZ2VyIGludm9rZXMgYSBuZXcgbm9kZSB3aXRoIGEgc2luZ2xlIGNvbnRhaW5lciB0aGF0IGFzc2lnbnMgdW5pcXVlIERvbWFpbiBOYW1lIFN5c3RlbSAoRE5TKSBuYW1lcyB0byBsb2NhbCBTd2FybXMgZm9yIHJlcXVlc3Qgcm91dGluZy48L3A+",
+                "c": "PHA+QSBTd2FybSBtYW5hZ2VyIGFzc2lnbnMgZWFjaCBzd2FybSBhIHVuaXF1ZSBEb21haW4gTmFtZSBTeXN0ZW0gKEROUykgbmFtZSBhbmQgcm91dGVzIHJlcXVlc3RzIHRvIGEgbG9jYWxseSBzaXR1YXRlZCBETlMgc2VydmVyLjwvcD4=",
+                "d": "PHA+QSBTd2FybSBtYW5hZ2VyIGNyZWF0ZXMgYSBzdWItbWFuYWdlciBmb3IgdGhlIFN3YXJtIHdob3NlIGV4cGxpY2l0IGR1dHkgaXMgaGFuZGxpbmcgSFRUUCByZXF1ZXN0cy48L3A+"
+            },
+            "correctAnswer": "c",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+V2hpY2ggb2YgdGhlIGZvbGxvd2luZyAKY2Fubm90IGJlIHVzZWQgCmFzIGEgZGljdGlvbmFyeSAKa2V5Pwo8L3A+",
+            "answers": {
+                "a": "PHA+PGNvZGU+bGlzdDwvY29kZT4KPC9wPg==",
+                "b": "PHA+PGNvZGU+ZnJvemVuc2V0PC9jb2RlPgo8L3A+",
+                "c": "PHA+PGNvZGU+ZmxvYXQ8L2NvZGU+CjwvcD4=",
+                "d": "PHA+PGNvZGU+Ym9vbDwvY29kZT4KPC9wPg=="
+            },
+            "correctAnswer": "a",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+Q29uc2lkZXIgdGhlIGZvbGxvd2luZyBQb2QgZGVmaW5pdGlvbjo8YnI+PGJyPjxjb2RlPmFwaVZlcnNpb246IHYxPGJyPmtpbmQ6IFBvZDxicj5tZXRhZGF0YTo8YnI+ICBuYW1lOiBjdWRhLXRlc3Q8YnI+c3BlYzo8YnI+ICBjb250YWluZXJzOjxicj4gICAgLSBuYW1lOiBjdWRhLXRlc3Q8YnI+ICAgICAgaW1hZ2U6ICJrOHMuZ2NyLmlvL2N1ZGEtdmVjdG9yLWFkZDp2MC4xIjxicj4gICAgICByZXNvdXJjZXM6PGJyPiAgICAgICAgbGltaXRzOjxicj4gICAgICAgICAgbnZpZGlhLmNvbS9ncHU6IDE8YnI+ICBub2RlU2VsZWN0b3I6PGJyPiAgICBhY2NlbGVyYXRvcjogbnZpZGlhLXRlc2xhLXAxMDA8L2NvZGU+PGJyPjxicj48YnI+V2hhdCB0eXBlIG9mIGxhYmVsIGZpbHRlcmluZyBpcyBiZWluZyB1c2VkIGhlcmU/PC9wPg==",
+            "answers": {
+                "a": "PHA+VGVuc29yeSByZXF1aXJlbWVudHM8L3A+",
+                "b": "PHA+UG9seS1yZXF1aXJlbWVudHM8L3A+",
+                "c": "PHA+RXF1YWxpdHktYmFzZWQgcmVxdWlyZW1lbnRzPC9wPg==",
+                "d": "PHA+U2V0LWJhc2VkIHJlcXVpcmVtZW50czwvcD4="
+            },
+            "correctAnswer": "c",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+V2hhdCBtZXRob2Qgc2hvdWxkIGJlIG92ZXJyaWRkZW4gdG8gbW9kaWZ5IGF0dHJpYnV0ZSBhY2Nlc3Mgb24gY2xhc3MgaW5zdGFuY2VzPwo8L3A+",
+            "answers": {
+                "a": "PHA+PGNvZGU+X19zZXRhdHRyX188L2NvZGU+CjwvcD4=",
+                "b": "PHA+PGNvZGU+X19nZXRhdHRyaWJ1dGVfXzwvY29kZT4KPC9wPg==",
+                "c": "PHA+PGNvZGU+X19nZXRhdHRyX188L2NvZGU+CjwvcD4=",
+                "d": "PHA+PGNvZGU+X19zZXRhdHRyaWJ1dGVfXzwvY29kZT4KPC9wPg=="
+            },
+            "correctAnswer": "c",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+V2hhdCBwdXJwb3NlIGRvZXMgdGhlIDxjb2RlPi0tZHJ5LXJ1bjwvY29kZT4gb3B0aW9uIGZsYWcgaGF2ZSwgd2hlbiBydW5uaW5nIHRoZSBjb21tYW5kOiA8Y29kZT5rdWJlY3RsIHJvbGxvdXQgdW5kbyBkZXBsb3ltZW50L3dlYi1hcHBsaWNhdGlvbi1kZW1vIC0tdG8tcmV2aXNpb249MiAtLWRyeS1ydW48L2NvZGU+PzwvcD4=",
+            "answers": {
+                "a": "PHA+SWYgc2V0LCB0aGUgY29tbWFuZCBvbmx5IHByaW50cyB0aGUgb2JqZWN0IHRoYXQgd291bGQgYmUgc2VudCB3aXRob3V0IGNoYW5naW5nIHRoZSBjbHVzdGVyIHN0YXRlLjwvcD4=",
+                "b": "PHA+SWYgc2V0LCB0aGUgY29tbWFuZCBzaW11bGF0ZXMgc3RhdGUgY2hhbmdlcyBhbmQgcHJpbnRzIG91dCB3aGV0aGVyIG9yIG5vdCB0aGUgb3BlcmF0aW9uIHdpbGwgYmUgc3VjY2Vzc2Z1bCBvciBub3QuPC9wPg==",
+                "c": "PHA+SWYgc2V0LCB0aGUgY29tbWFuZCBydW5zIHRoZSByb2xsb3V0IGFuZCB0ZXJtaW5hdGVzIGFsbCBydW5uaW5nIFBvZHMgYmVmb3JlIHRoZSByb2xsb3V0IHN1Y2NlZWRzPC9wPg==",
+                "d": "PHA+SWYgc2V0LCB0aGUgY29tbWFuZCBydW5zIHRoZSByb2xsb3V0LCBjaGFuZ2luZyB0aGUgRGVwbG95bWVudCBvYmplY3QgYW5kIGFsc28gcHJpbnRzIHRoZSByZXN1bHRzIG91dHB1dC48L3A+"
+            },
+            "correctAnswer": "a",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+V2hpY2ggZGF0YSBzdHJ1Y3R1cmUgY2FuIHlvdSB1c2UgYXMga2V5cyBmb3IgeW91ciBkaWN0aW9uYXJ5Pwo8L3A+",
+            "answers": {
+                "a": "PHA+PGNvZGU+dmFyY2hhcjwvY29kZT48YnI+PC9wPg==",
+                "b": "PHA+PGNvZGU+dHVwbGU8L2NvZGU+CjwvcD4=",
+                "c": "PHA+PGNvZGU+c3RydWN0PC9jb2RlPgo8L3A+",
+                "d": "PHA+PGNvZGU+ZGljdDwvY29kZT4KPC9wPg=="
+            },
+            "correctAnswer": "b",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+Q2FuIHlvdSB1c2UgdGhlIDxjb2RlPnVuaXR0ZXN0PC9jb2RlPiBtb2R1bGUgdG8gdGVzdCBpZiB0aGUgc2NyaXB0IGlzIHBlcmZvcm1pbmcgdGhlIGRlc2lyZWQgY2hhbmdlcyBvbiB5b3VyIGluZnJhc3RydWN0dXJlIHdoaWxlIGl0J3MgcnVubmluZz8KPC9wPg==",
+            "answers": {
+                "a": "PHA+WW91IG5lZWQgdG8gdXNlIDxjb2RlPlRlc3RTdWl0ZTwvY29kZT4gY2xhc3MgdG8gYWNoaWV2ZSB0aGUgZGVzaXJlZCBvdXRjb21lLgo8L3A+",
+                "b": "PHA+Tm8sIHRoZSA8Y29kZT51bml0dGVzdDwvY29kZT4gaXMgb25seSBhYmxlIHRvIHZlcmlmeSBpZiB0aGUgZ2l2ZW4gZnVuY3Rpb25zIHJldHVybiB0aGUgcHJvcGVyIHZhbHVlcyBvbiBzcGVjaWZpZWQgaW5wdXRzLgo8L3A+",
+                "c": "PHA+T25seSBpbiByYXJlIGNhc2VzCjwvcD4=",
+                "d": "PHA+WWVzLCB0aGF0IGlzIHB1cnBvc2Ugb2YgdGhlIDxjb2RlPnVuaXR0ZXN0PC9jb2RlPi4KPC9wPg=="
+            },
+            "correctAnswer": "b",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+V2hhdCBjb21tYW5kIGluaXRpYXRlcyB0aGUgUkVQTCAoUmVhZCwgRXZhbHVhdGUsIFByaW50LCBMb29wKT8KPC9wPg==",
+            "answers": {
+                "a": "PHA+PGNvZGU+JCBweXRob248L2NvZGU+CjwvcD4=",
+                "b": "PHA+PGNvZGU+JCBydW5weTwvY29kZT4KPC9wPg==",
+                "c": "PHA+PGNvZGU+JCBweTwvY29kZT4KPC9wPg==",
+                "d": "PHA+PGNvZGU+JCByZXBsPC9jb2RlPgo8L3A+"
+            },
+            "correctAnswer": "a",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+R2l2ZW4gdGhlIGZvbGxvd2luZyBzY3JpcHQ6CjwvcD4=",
+            "answers": {
+                "a": "PHA+VGhlIDxjb2RlPnMgPSBzdHIoJ2hlbGxvIHdvcmxkJyk8L2NvZGU+IHNob3VsZCBiZSB1c2VkLCBiZWNhdXNlIHRoZSBjdXJyZW50IHZlcnNpb24gZ2l2ZXMgYSBsaXN0Lgo8L3A+",
+                "b": "PHA+VGhlIHdyb25nIGVycm9yIGlzIHJhaXNlZC4gSXQgc2hvdWxkIGJlIDxjb2RlPlR5cGVFcnJvcjwvY29kZT4uCjwvcD4=",
+                "c": "PHA+VGhlIHNjcmlwdCBzaG91bGQgYmUgcnVuIHdpdGggdGhlIDxjb2RlPi1tIHVuaXR0ZXN0PC9jb2RlPiBwcmVmaXguCjwvcD4=",
+                "d": "PHA+VGhlIHRlc3QgY2FzZSBpcyBwcm9wZXJseSBkZWZpbmVkLCB0aGUgaW5wdXQgaXMgd3JvbmcuCjwvcD4="
+            },
+            "correctAnswer": "b",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+WW91IHdhbnQgdG8gZW50ZXIgdGhlIGRlYnVnZ2VyIGJlZm9yZSB0aGUgZnVuY3Rpb24gY2FsbCA8Y29kZT5jYWxjdWxhdGVfcHJpbWVfdGlsbDwvY29kZT4gb24gbGluZSBuaW5lLiBXaGVyZSB3b3VsZCB5b3UgZGVmaW5lIHRoZSA8Y29kZT5wZGIuc2V0X3RyYWNlKCk8L2NvZGU+IGNvbW1hbmQ/CjwvcD4=",
+            "answers": {
+                "a": "PHA+TGluZSBlaWdodAo8L3A+",
+                "b": "PHA+SXQgY2Fubm90IGJlIGRvbmUKPC9wPg==",
+                "c": "PHA+QWZ0ZXIgaW1wb3J0aW5nIHRoZSA8Y29kZT5wZGI8L2NvZGU+IG1vZHVsZQo8L3A+",
+                "d": "PHA+SW4gdGhlIGZ1bmN0aW9ucyBkZWZpbml0aW9uCjwvcD4="
+            },
+            "correctAnswer": "a",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+V2hhdCBjb21tYW5kIGNhbiBiZSB1c2VkIGluIGEgS3ViZXJuZXRlcyBDTEksIHRvIGxpc3QgYWxsIGF2YWlsYWJsZSBzZXJ2aWNlcyBhbmQgdGhlaXIgbGFiZWxzIGZyb20gdGhlIGN1cnJlbnQgbmFtZXNwYWNlPzwvcD4=",
+            "answers": {
+                "a": "PHA+PGNvZGU+a3ViZWN0bCBnZXQgc2VydmljZXMgLS1hbGwgLS1zaG93LWxhYmVscz10cnVlPC9jb2RlPjwvcD4=",
+                "b": "PHA+PGNvZGU+a3ViZWN0bCBnZXQgc2VydmljZXMgLS1zaG93LWxhYmVsczwvY29kZT48L3A+",
+                "c": "PHA+PGNvZGU+a3ViZWN0bCBnZXQgc2VydmljZXM8L2NvZGU+PC9wPg==",
+                "d": "PHA+PGNvZGU+a3ViZWN0bCBnZXQgc2VydmljZXMgLS1uYW1lc3BhY2U9Y3VycmVudC1jb250ZXh0IC0tc2hvdy1sYWJlbHM8L2NvZGU+PC9wPg=="
+            },
+            "correctAnswer": "b",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+SG93IHdvdWxkIHlvdSB1c2UgdGhlIDxjb2RlPnN1cGVyKCk8L2NvZGU+IG1ldGhvZCBnaXZlbiB0aGUgZm9sbG93aW5nIHBhcmVudCBjbGFzcz88YnI+PGJyPjwvcD4=",
+            "answers": {
+                "a": "dW5kZWZpbmVk",
+                "b": "dW5kZWZpbmVk",
+                "c": "dW5kZWZpbmVk",
+                "d": "dW5kZWZpbmVk"
+            },
+            "correctAnswer": "",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+V2hhdCBzdGF0ZW1lbnQgZGVzY3JpYmVzIHRoZSByZWxhdGlvbnNoaXAgYmV0d2VlbiBhIFBlcnNpc3RlbnRWb2x1bWUgKFBWKSBhbmQgUGVyc2lzdGVudFZvbHVtZUNsYWltIChQVkMpIGluIGEgS3ViZXJuZXRlcyBjbHVzdGVyPzwvcD4=",
+            "answers": {
+                "a": "PHA+VGhlIFBWQyBpcyBhIHJlcXVlc3QgZm9yIHN0b3JhZ2UgZnJvbSBQb2RzIHdoZXJlIHlvdSByZXF1aXJlIFBWcyB0byBiZSBtb3VudGVkIHVuZGVyIGRlc2lyZWQgZmlsZSBzeXN0ZW0gcGF0aHMuPC9wPg==",
+                "b": "PHA+VGhlIFBWQyBpcyBhIHJlcXVlc3QgZm9yIHN0b3JhZ2UgdGhhdCByZXF1aXJlcyBleHRlcm5hbCBzdG9yYWdlIHN5c3RlbXMgdG8gYmUgY29uZmlndXJlZCB3aXRoIEt1YmVybmV0ZXMgYW5kIGJpbmRzIHRvIFBvZHMgd2hlcmUgeW91IGNhbiBtb3VudCBpdCBhcyBhIFBWLjwvcD4=",
+                "c": "PHA+VGhlIFBWQyBpcyBhIHJlcXVlc3QgZm9yIHN0b3JhZ2UgZnJvbSBQVnMgdW5kZXIgdGhlIHNhbWUgbmFtZXNwYWNlIHdpdGggZGVzaXJlZCBzcGVjaWZpY2F0aW9uIChzaXplLCBtb3VudCBvcHRpb25zLCBldGMpLCB0aGF0IGNhbiBiZSBtb3VudGVkIGFzIGZpbGVzeXN0ZW1zIGluIFBvZHMuPC9wPg==",
+                "d": "PHA+VGhlIFBWQyBpcyBhIHJlcXVlc3QgZm9yIHN0b3JhZ2Ugd2hpY2ggcmVxdWlyZXMgYSBQViB3aXRoIHlvdXIgZGVzaXJlZCBzcGVjaWZpY2F0aW9uIChzaXplLCBtb3VudCBvcHRpb25zLCBldGMuKSBmcm9tIEt1YmVybmV0ZXMgYW5kIGJpbmRzIGl0IHRvIFBvZHMgd2hlcmUgeW91IGNhbiBtb3VudCBpdCBhcyBhIHZvbHVtZS48L3A+"
+            },
+            "correctAnswer": "d",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+V2hhdCBkb2VzIHRoZSA8Y29kZT5rdWJlY3RsIHBvcnQtZm9yd2FyZDwvY29kZT4gY29tbWFuZCBkbz88L3A+",
+            "answers": {
+                "a": "PHA+Rm9yd2FyZCBvbmUgb3IgbW9yZSBsb2NhbCBwb3J0cyB0byB0aGUgS3ViZXJuZXRlcyBBUEkuPC9wPg==",
+                "b": "PHA+Q29uZmlndXJlIHBvcnQgZm9yd2FyZGluZyBmcm9tIG9uZSBQb2QgdG8gYW5vdGhlciBQb2QuPC9wPg==",
+                "c": "PHA+Q29uZmlndXJlIG5ldHdvcmsgYWRkcmVzcyB0cmFuc2xhdGlvbiAoTkFUKSBwb3J0IGZvcndhcmRpbmcgdG8gUG9kcyBpbiB0aGUgY2x1c3Rlci48L3A+",
+                "d": "PHA+Rm9yd2FyZCBvbmUgb3IgbW9yZSBsb2NhbCBwb3J0cyB0byBhIFBvZC48L3A+"
+            },
+            "correctAnswer": "d",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+V2hhdCBjb21tYW5kIGNhbiB5b3UgdXNlIGluIGEgS3ViZXJuZXRlcyBDTEkgdG8gY3JlYXRlIGFuIGFwcGxpY2F0aW9uIGNhbGxlZCA8Y29kZT53ZWItYXBwbGljYXRpb24tZGVtbzwvY29kZT4sIHRoYXQgY29udGFpbnMgYSBEZXBsb3ltZW50IG9iamVjdCBvZiB0aGUgaW1hZ2UgPGNvZGU+dHJhaW5pbmcvd2ViLWFwcGxpY2F0aW9uOjEuMC4wPC9jb2RlPiwgcnVucyBvbiBwb3J0IDgwODAsIGFuZCBoYXMgYSBTZXJ2aWNlIG9iamVjdCBleHBvc2luZyB0aGUgc2FtZSBwb3J0PyA8L3A+",
+            "answers": {
+                "a": "PHA+PGNvZGU+a3ViZWN0bCBydW4gd2ViLWFwcGxpY2F0aW9uLWRlbW8gLS1pbWFnZT10cmFpbmluZy93ZWItYXBwbGljYXRpb246MS4wLjAgLS1wb3J0IDgwODAgLS1leHBvc2U9dHJ1ZTwvY29kZT48L3A+",
+                "b": "PHA+PGNvZGU+a3ViZWN0bCBjcmVhdGUgZGVwbG95bWVudC93ZWItYXBwbGljYXRpb24tZGVtbyAtLWltYWdlPXRyYWluaW5nL3dlYi1hcHBsaWNhdGlvbjoxLjAuMCAtLXBvcnQgODA4MDwvY29kZT48L3A+",
+                "c": "PHA+PGNvZGU+a3ViZWN0bCBjcmVhdGUgZGVwbG95bWVudC93ZWItYXBwbGljYXRpb24tZGVtbyAtLWltYWdlPXRyYWluaW5nL3dlYi1hcHBsaWNhdGlvbjoxLjAuMCAtLXBvcnQgODA4MCAtLWV4cG9zZT10cnVlPC9jb2RlPjwvcD4=",
+                "d": "PHA+PGNvZGU+a3ViZWN0bCBydW4gd2ViLWFwcGxpY2F0aW9uLWRlbW8gLS1pbWFnZT10cmFpbmluZy93ZWItYXBwbGljYXRpb246MS4wLjAgLS1wb3J0IDgwODA8L2NvZGU+PC9wPg=="
+            },
+            "correctAnswer": "a",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+V2hpY2ggc3BlY2lhbCBmdW5jdGlvbiB3b3VsZCBvdmVycmlkZSB0aGUgZm9sbG93aW5nIG9wZXJhdG9yOgo8L3A+",
+            "answers": {
+                "a": "PHA+PGNvZGU+X19pbnZlcnRfXzwvY29kZT4KPC9wPg==",
+                "b": "PHA+PGNvZGU+X19wb3dfXzwvY29kZT4KPC9wPg==",
+                "c": "PHA+PGNvZGU+X19tb2RfXzwvY29kZT4KPC9wPg==",
+                "d": "PHA+PGNvZGU+X194b3JfXzwvY29kZT4KPC9wPg=="
+            },
+            "correctAnswer": "d",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+V2hhdCBpcyB0cnVlIG9mIGEgYmx1ZS9ncmVlbiBkZXBsb3ltZW50PzwvcD4=",
+            "answers": {
+                "a": "PHA+Qmx1ZSBhbmQgZ3JlZW4gdmVyc2lvbnMgZ2V0IHJlcXVlc3RzIGR1cGxpY2F0ZWQgdG8gYm90aCBlbnZpcm9ubWVudHMgZm9yIGEgbWluaW11bSBvZiBmaXZlIG1pbnV0ZXMgZHVyaW5nIHRoZSBkZXBsb3ltZW50IGZvciB0ZXN0aW5nIHB1cnBvc2VzLjwvcD4=",
+                "b": "PHA+RHVyaW5nIGRlcGxveW1lbnQsIGJvdGggdGhlIGN1cnJlbnQgYW5kIHRoZSBuZXcgdmVyc2lvbiBvZiB0aGUgYXBwbGljYXRpb24gYXJlIHJ1bm5pbmcgYXQgdGhlIHNhbWUgdGltZSBzbyB0aGF0IHRyYWZmaWMgY2FuIGJlIGRyYWluZWQgZnJvbSB0aGUgY3VycmVudCB2ZXJzaW9uIGFuZCBhbGwgbmV3IHRyYWZmaWMgY2FuIGJlIHNlbnQgdG8gdGhlIG5ldyB2ZXJzaW9uLjwvcD4=",
+                "c": "PHA+VGhlIGRlcGxveW1lbnQgaXMgY29uc2lkZXJlZCAiYmx1ZSIgdW50aWwgaXQgaGFzIHN0YWJpbGl6ZWQgYW5kIHBhc3NlZCBhbGwgaGVhbHRoIGNoZWNrcywgYXQgd2hpY2ggcG9pbnQgaXMgaXQgY29uc2lkZXJlZCAiZ3JlZW4iLjwvcD4=",
+                "d": "PHA+RHVyaW5nIGEgYmx1ZS9ncmVlbiBkZXBsb3ltZW50LCBhIHNtYWxsIHBlcmNlbnRhZ2Ugb2YgdHJhZmZpYyBpcyBzZW50IHRvIGJsdWUgd2hpbGUgdGhlIG1ham9yaXR5IGdvZXMgdG8gZ3JlZW4gdG8gdGVzdCB0aGF0IHRoZSBuZXcgdmVyc2lvbiBoYW5kbGVzIHRoZSB0cmFmZmljIGJlZm9yZSBzd2l0Y2hpbmcgb24gdGhlIGZpcmVob3NlIG9mIGFsbCB0cmFmZmljLjwvcD4="
+            },
+            "correctAnswer": "b",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+SW4gUHl0aG9uMyB3aGF0IGlzIHRoZSBkZWZhdWx0IGludGVyZmFjZSB0byBhY2Nlc3MgZmlsZXMgYW5kIHN0cmVhbXM/CjwvcD4=",
+            "answers": {
+                "a": "PHA+VGhlIDxjb2RlPmlvPC9jb2RlPiBsaWJyYXJ5CjwvcD4=",
+                "b": "PHA+VGhlIDxjb2RlPm9zPC9jb2RlPiBsaWJyYXJ5CjwvcD4=",
+                "c": "PHA+VGhlIDxjb2RlPnBsYXRmb3JtPC9jb2RlPiBsaWJyYXJ5CjwvcD4=",
+                "d": "PHA+VGhlIDxjb2RlPmxvZ2dpbmc8L2NvZGU+IGxpYnJhcnkKPC9wPg=="
+            },
+            "correctAnswer": "a",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+WW91IGhhdmUgYSBzaW1wbGUgUG9kIGRlZmluaXRpb24gd2l0aCB0d28gY29udGFpbmVycy4gT25lIGNvbnRhaW5lciBpcyBhIHNpZGVjYXIgYW5kIHRoZSBQb2QgaXMgc2NoZWR1bGVkIHRvIHJ1biBvbmNlIG9uIGFsbCB0aHJlZSB3b3JrZXIgbm9kZXMgaW4gYSBjbHVzdGVyLiBIb3cgbWFueSBJUCBhZGRyZXNzZXMgd2lsbCB0aGUgUG9kcyBjb25zdW1lIGluIHRvdGFsPzwvcD4=",
+            "answers": {
+                "a": "PHA+T25lIElQIGFkZHJlc3MgdGhhdCBpcyBsb2FkIGJhbGFuY2VkIGFjcm9zcyBhbGwgdGhlIFBvZHM8L3A+",
+                "b": "PHA+Tm8gSVAgYWRkcmVzc2VzIGJlY2F1c2UgYWxsIGNvbW11bmljYXRpb24gd2lsbCBiZSBzZW50IHdpdGggYW4gaW50ZXJuYWwgbm9kZSBwb3J0PC9wPg==",
+                "c": "PHA+VGhyZWUgSVAgYWRkcmVzc2VzLCBvbmUgcGVyIFBvZDwvcD4=",
+                "d": "PHA+U2l4IElQIGFkZHJlc3Nlcywgb25lIHBlciBjb250YWluZXI8L3A+"
+            },
+            "correctAnswer": "c",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+V2hhdCBpcyB0aGUgZGlmZmVyZW5jZSBiZXR3ZWVuIDxjb2RlPmltcG9ydCBteV9tb2R1bGU8L2NvZGU+IGFuZCA8Y29kZT5mcm9tIG15X21vZHVsZSBpbXBvcnQgKjwvY29kZT4/CjwvcD4=",
+            "answers": {
+                "a": "PHA+WW91IGNhbiByZWZlciB0byB0aGUgc3VibW9kdWxlcyBpbiA8Y29kZT5pbXBvcnQgbXlfbW9kdWxlPC9jb2RlPiBpbiBhIHNob3J0ZXIgd2F5Lgo8L3A+",
+                "b": "PHA+PGNvZGU+ZnJvbSBteV9tb2R1bGUgaW1wb3J0ICo8L2NvZGU+IHBvbGx1dGVzIHRoZSBuYW1lc3BhY2UgYmVjYXVzZSBoYXZpbmcgdHdvIG1vZHVsZXMgd2l0aCB0aGUgc2FtZSBjbGFzcyBuYW1lcyBjYW4gbGVhZCB0byB1bmV4cGVjdGVkIHJlc3VsdHMuCjwvcD4=",
+                "c": "PHA+PGNvZGU+aW1wb3J0IG15X21vZHVsZTwvY29kZT4gdXNlcyB0aGUgPGNvZGU+YXM8L2NvZGU+IGtleXdvcmQgdG8gc3BlY2lmeSBjdXN0b20gbmFtZSBmb3IgdGhlIGltcG9ydGVkIGNsYXNzZXMgYW5kIGZ1bmN0aW9ucy4KPC9wPg==",
+                "d": "PHA+VGhlcmUgaXMgbm8gZGlmZmVyZW5jZSBiZXR3ZWVuIDxjb2RlPmltcG9ydCBteV9tb2R1bGU8L2NvZGU+IGFuZCA8Y29kZT5mcm9tIG15X21vZHVsZSBpbXBvcnQgKjwvY29kZT4uCjwvcD4="
+            },
+            "correctAnswer": "b",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+V2hhdCBjYW4gSSBleHBlY3QgPGNvZGU+Zmlyc3RfYXJyYXk8L2NvZGU+IGFuZCA8Y29kZT5zZWNvbmRfYXJyYXk8L2NvZGU+IHRvIGJlLCBnaXZlbjo8YnI+PC9wPg==",
+            "answers": {
+                "a": "PHA+4oCiIGZpcnN0X2FycmF5ID0gWzEsMiwzXQo8L3A+",
+                "b": "PHA+4oCiIGZpcnN0X2FycmF5ID0gWzEsMiwzLDRdCjwvcD4=",
+                "c": "PHA+4oCiIGZpcnN0X2FycmF5ID0gWzEsMiwzLDRdPGJyPjwvcD4=",
+                "d": "PHA+4oCiIGZpcnN0X2FycmF5ID0gWzEsMiwzXTxicj48L3A+"
+            },
+            "correctAnswer": "a",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+R2l2ZW4gdGhlIGZvbGxvd2luZyBmdW5jdGlvbiBkZWZpbml0aW9uOjxicj48L3A+",
+            "answers": {
+                "a": "PHA+SXQgcHJpbnRzIG9ubHkgdGhlIG9kZCBudW1iZXJzLjwvcD4=",
+                "b": "PHA+WW91IG5lZWQgdG8gd3JhcCBpdCB3aXRoIHRoZSByYW5nZSBmdW5jdGlvbiB0byBpdGVyYXRlIG92ZXIgdGhlIGVsZW1lbnRzLjwvcD4=",
+                "c": "PHA+VGhlIHlpZWxkIHN0YXRlbWVudCBuZWVkcyB0byBiZSByZXBsYWNlZCB3aXRoIHRoZSByZXR1cm4gc3RhdGVtZW50LjwvcD4=",
+                "d": "PHA+SXRlcmF0b3JzIHVzZSB0aGUgbmV4dCBmdW5jdGlvbiB0byBpdGVyYXRlIG92ZXIgdGhlIGVsZW1lbnRzLCBwcmludCBkb2VzIG5vdCBpbXBsZW1lbnQgaXQuPC9wPg=="
+            },
+            "correctAnswer": "d",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+WW91IG5vdGljZSBzb21ldGhpbmcgc3RyYW5nZSB3aGVuIHlvdSBwcmludCB5b3VyIGJhc2tldCB1c2luZyB0aGUgZm9sbG93aW5nIFB5dGhvbiBjb2RlOjxicj48L3A+",
+            "answers": {
+                "a": "PHA+VGhlIHByaW50IHN0YXRlbWVudCByZW1vdmVzIGR1cGxpY2F0ZXMuPC9wPg==",
+                "b": "PHA+VGhhdCBpcyBhIGRpY3Rpb25hcnkgZGVmaW5pdGlvbiwgYW5kIGRpY3RzIGRvIG5vdCBhbGxvdyBkdXBsaWNhdGVzLjwvcD4=",
+                "c": "PHA+QnkgZGVmYXVsdCwgdGhlIHNldCBkYXRhc3RydWN0dXJlIGRvZXMgbm90IGFsbG93IGR1cGxpY2F0ZXMuPC9wPg==",
+                "d": "PHA+UHl0aG9uIDIgZG9lcyBub3QgYWxsb3cgcHJpbnRpbmcgb2Ygb2JqZWN0cyB3aXRoIGR1cGxpY2F0ZXMgPGJyPjwvcD4="
+            },
+            "correctAnswer": "c",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+V2hlbiB1bnBhY2tpbmcgYSB0dXBsZSwgd2hhdCBoYXBwZW5zIGlmIHRoZSBudW1iZXIgb2YgdmFyaWFibGVzIG9uIHRoZSBsZWZ0IGRvZXNu4oCZdCBtYXRjaCB0aGUgbnVtYmVyIG9mIGl0ZW1zIGluIHRoZSB0dXBsZT88YnI+PC9wPg==",
+            "answers": {
+                "a": "PHA+QSA8Y29kZT5UeXBlRXJyb3I8L2NvZGU+IGlzIHJhaXNlZDwvcD4=",
+                "b": "PHA+SWYgdGhlIHZhcmlhYmxlcyBhcmUgbW9yZSB0aGFuIHRoZSBpdGVtcyBpbiB0aGUgdHVwbGUsIHRoZSB0dXBsZSBpcyB1bnBhY2tlZCBhbmQgdGhlIHZhbHVlIG9mIHRoZSBleHRyYSB2YXJpYWJsZXMgaXMgCTxjb2RlPk5vbmU8L2NvZGU+LjwvcD4=",
+                "c": "PHA+QSA8Y29kZT5WYWx1ZUVycm9yPC9jb2RlPiBpcyByYWlzZWQ8L3A+",
+                "d": "PHA+SWYgdGhlIHZhcmlhYmxlcyBhcmUgbGVzcyB0aGFuIHRoZSBpdGVtcyBpbiB0aGUgdHVwbGUsIHRoZSB0dXBsZSBpcyB1bnBhY2tlZCBhbmQgdGhlIHJlbWFpbmluZyBpdGVtcyBpbiB0aGUgdHVwbGUgYXJlIGRpc2NhcmRlZC48L3A+"
+            },
+            "correctAnswer": "c",
+            "skill": "python"
+        },
+        {
+            "question": "PHA+V2h5IHdvdWxkIHlvdSB1c2UgS2VybmVsIE1vbml0b3Igd2l0aCB0aGUgPGNvZGU+VHJhbnNsYXRvcjwvY29kZT4gcGx1Z2luIGZvciBrZXJuZWwgbG9nZ2luZyBpbiBLdWJlcm5ldGVzPzwvcD4=",
+            "answers": {
+                "a": "PHA+SWYgeW91IGFyZSB0cnlpbmcgdG8gY29udmVydCBrZXJuZWwgbG9ncyBpbnRvIGEgZGlmZmVyZW50IGxvY2FsZTwvcD4=",
+                "b": "PHA+SWYgeW91IGFyZSB0cnlpbmcgdG8gY29ubmVjdCBrZXJuZWwgbG9nZ2luZyBzdHJpY3RseSBiZXR3ZWVuIERlYmlhbiBhbmQgTGludXg8L3A+",
+                "c": "PHA+SWYgeW91IGFyZSB0cnlpbmcgdG8gdHJhbnNsYXRlIGtlcm5lbCBsb2dzIGludG8gYW4gaW50ZXJuYWwgZGF0YSBzdHJ1Y3R1cmU8L3A+",
+                "d": "PHA+SWYgeW91IGFyZSB0cnlpbmcgdG8gbG9nIGRhdGEgc3RyaWN0bHkgZnJvbSBLdWJlcm5ldGVzIGluc3RhbmNlcyB0byBEb2NrZXIgaW5zdGFuY2VzPC9wPg=="
+            },
+            "correctAnswer": "c",
+            "skill": "kubernetesdeveloper"
+        },
+        {
+            "question": "PHA+V2hpY2ggUHl0aG9uIG1vZHVsZSBjYW4gYmUgdXNlZCB0byBwcm9maWxlIFB5dGhvbiBjb2RlIGluIGEgc2Vuc2UgdG8gYW5hbHl6ZSBpdHMgcGVyZm9ybWFuY2U/CjwvcD4=",
+            "answers": {
+                "a": "PHA+PGNvZGU+Y1Byb2ZpbGU8L2NvZGU+CjwvcD4=",
+                "b": "PHA+PGNvZGU+bXlweTwvY29kZT4KPC9wPg==",
+                "c": "PHA+PGNvZGU+UGVyZlB5PC9jb2RlPgo8L3A+",
+                "d": "PHA+PGNvZGU+Y1B5UGVyZm9ybWFuY2U8L2NvZGU+CjwvcD4="
+            },
+            "correctAnswer": "a",
             "skill": "python"
         }
     ]

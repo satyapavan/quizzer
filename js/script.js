@@ -104,10 +104,10 @@ function loadData() {
               console.log('------------------------------------')
               console.log('BEFORE', currentQuestion);
 
-              currentQuestion.question = window.atob(currentQuestion.question);
+              currentQuestion.question = decodeURIComponent(escape(window.atob(currentQuestion.question)));
 
               for(letter in currentQuestion.answers){
-                currentQuestion.answers[letter] = window.atob(currentQuestion.answers[letter]);
+                currentQuestion.answers[letter] = decodeURIComponent(escape(window.atob(currentQuestion.answers[letter])));
               }
               console.log('AFTER', currentQuestion);
             }
