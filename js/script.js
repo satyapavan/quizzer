@@ -1,5 +1,4 @@
 // TODO : GLOBAL variable? really??
-
 const quizContainer = document.getElementById('quiz');
 
 // pagination
@@ -11,6 +10,23 @@ function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+function showProgress() {
+  if (gPROGRESS > 0) {
+    gPROGRESS = gPROGRESS - 1;
+    $(".progress-bar").css("width", gPROGRESS + "%").text(gPROGRESS + " %");
+
+    if(gPROGRESS === 60) {
+        document.getElementsByClassName('progress-bar')[0].classList.add('bg-warning');
+    } else if(gPROGRESS === 25) {
+      document.getElementsByClassName('progress-bar')[0].classList.replace('bg-warning', 'bg-danger');
+    }
+    // Wait for sometime before running this script again
+    setTimeout("showProgress()", 1000);
+  } else if(gPROGRESS == 0) {
+    showResults();
   }
 }
 
@@ -92,6 +108,9 @@ function showQuestion() {
     ${currentQuestion.question}
     <h6 class="alert-heading font-italic text-right">#${currentQuestion.skill}</h6>
     </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped"></div>
+    </div>
         <hr class="mt-0">
        ${answers.join('')}
          `
@@ -106,11 +125,18 @@ function showQuestion() {
       showResults(itr);
     });
   });
+
+  // get the progressbar moving
+  window.gPROGRESS = 100;
+  showProgress();
 }
 
 function showResults(selectedAnswer) {
   console.log("The Selected Answer is : ", selectedAnswer);
   console.log("The Correct  Answer is : ", currentQuestion.correctAnswer);
+
+  // First, lets stop the timer
+  gPROGRESS = -1;
 
   ['a', 'b', 'c', 'd'].forEach((itr) => {
     document.getElementById(`option-${itr}`).disabled = true;
@@ -129,15 +155,16 @@ function showResults(selectedAnswer) {
   }
   // if answer is wrong or blank color the answers red
   else {
-    document.getElementById(`option-${selectedAnswer}`).classList.replace('btn-light', 'btn-outline-danger');
-    document.getElementById(`option-${currentQuestion.correctAnswer}`).classList.replace('btn-light', 'btn-outline-success');
-
-    document.getElementById(`span-${selectedAnswer}`).innerHTML =
+    // When showResults is called as a result of timeout, then no answer would be selected, hence it would be undefined
+    if( selectedAnswer !== undefined) {
+      document.getElementById(`option-${selectedAnswer}`).classList.replace('btn-light', 'btn-outline-danger');
+      document.getElementById(`span-${selectedAnswer}`).innerHTML =
       `<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
     <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
     <path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
   </svg>`;
-
+    }
+    document.getElementById(`option-${currentQuestion.correctAnswer}`).classList.replace('btn-light', 'btn-outline-success');
     document.getElementById(`span-${currentQuestion.correctAnswer}`).innerHTML =
       `<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
